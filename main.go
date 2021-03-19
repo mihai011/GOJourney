@@ -2,9 +2,8 @@ package main
 
 import "fmt"
 
+import "rsc.io/quote"
+
 func main() {
-	/* This is my first sample program. */
-	fmt.Println("Hello, World!")
-	var age int
-	fmt.Println(age)
+	fmt.Println(quote.Go())
 }
